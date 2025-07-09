@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Story template</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+
+    .centered-photo {
+    display: block;
+    margin: 1.5em auto;   /* auto centers the image horizontally */
+    max-width: 50%;       /* or 100%, adjust as desired */
+    border-radius: 0;     /* ensures square corners */
+}
+
+    .byline {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 0.4;
+}
+
+        body {
+    margin: 0;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-rendering: optimizeLegibility;
+    background-image: url('doggos11.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.header h1 {
+    margin-bottom: 0.1em;  /* Reduce space below headline */
+}
+
+.header .subhead {
+    margin-top: 0.4;         /* Remove space above subhead */
+    font-size: 0.8em;      /* Make subhead a bit larger if you want */
+    font-style: italic;  /* this makes it cursive */
+}
+
+.content {
+    max-width: 640px;
+    margin: 2em auto;                /* add space above and below the box */
+    background: rgba(0, 0, 0, 0.7); /* white, slightly transparent (change 0.95 to 1 for solid white) */
+    border-radius: 0px;             /* optional: rounded corners */
+    padding: 2em;                    /* space inside the box */
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12); /* optional: soft shadow for 'lifted' effect */
+    color: white; /* <-- add this line */
+}
+
+        .header {
+    /* ... your other styles ... */
+    background-image: url('doggos8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;  /* <-- this centers the text */
+    font-size: 1.2em; /* Try 2.5em, 4em, 48px, etc. */
+    margin-bottom: -0.5em;
+}
+
+        a {
+            color: #f05349;
+        }
+
+        .footer {
+            background: #f4f4f4;
+            text-align: center;
+            font-size: 0.8em;
+            margin-top: 4em;
+            padding: 4em 0;
+        }
+
+        figure {
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        figcaption {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 0.5em;
+            color: #666;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 3em;
+            line-height: 1.1;
+        }
+
+        .subhead {
+            font-size: 0.7em; /* Try 1.2em, 2em, 24px, etc. */
+            margin-top: 0.5;
+        }
+
+        iframe,
+        img,
+        video {
+            max-width: 100%;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        ul {
+            margin: 0;
+            padding-bottom: 1em;
+            line-height: 1.6;
+        }
+
+        iframe {
+            padding-bottom: 1.2em;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background: #fffbaf;
+            font-size: 0.85em;
+        }
+
+        .full-width figure {
+            text-align: center;
+        }
+
+        /* margin on mobile */
+        @media (max-width: 640px) {
+            body {
+                font-size: 18px;
+            }
+
+            .content {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <h1>The Pit Bull Dilemma</h1>
+            <p class="subhead">How the nation's most popular dog became a shelter mainstay</p>
+        </div>
+        <div class="byline">
+            <p>By Sara Silvennoinen</p>
+        </div>
+
+        <img src="Självmedicinering-5.jpg" alt="My dog" class="centered-photo">
+<p>Meet 8-year-old Bubba–also known as Bubbles. He's a Pit Bull Terrier and American Bulldog mix who has been up for adoption since 2019.</p>
+<p>Bubba is one of nearly 190 pit bull terriers currently housed across 140 shelters in New York.</p>
+<p>When looking at the primary breed of dogs in New York shelters, the pit bull terrier is the most common.</p>
+
+<figure style="max-width:100%; display:block; margin: 2em auto;">
+  <img src="chart1.png" alt="Description of your graph" style="width:100%;">
+  <figcaption style="margin-bottom: 2em;">The top ten dog breeds in 140 NYC shelters.</figcaption>
+</figure>
+
+<p>Around 30 percent of dogs in NYC shelters are so-called "bully breeds," a category that includes dogs such as American Pit Bulls, Cane Corsos, and Bullmastiffs.</p>
+
+        <figure>
+            <img src="chart2.png" alt="Description of your graph" style="max-width:100%; display:block; margin: 2em auto;">
+            <figcaption>This is an image caption</figcaption>
+        </figure>
+        <p>According to experts, pit bulls are overrepresented in shelters primarily because of overbreeding and their negative reputation, both of which make it more difficult for them to be adopted.</p>
+   
+        </div>
+    </div>
+</body>
+
+</html>
